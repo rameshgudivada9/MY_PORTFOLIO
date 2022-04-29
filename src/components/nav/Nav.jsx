@@ -14,35 +14,40 @@ const Nav = () => {
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <AiOutlineHome />
+       Home 
+       {/* <AiOutlineHome /> */}
       </a>
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        <AiOutlineUser />
+        About
+        {/* <AiOutlineUser /> */}
       </a>
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <BiBook />
+        skills
+        {/* <BiBook /> */}
       </a>
       <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
-        <BsFilePersonFill />
+        Projects
+        {/* <BsFilePersonFill /> */}
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
-        <AiOutlineMessage />
+        Contact
+        {/* <AiOutlineMessage /> */}
       </a>
     </nav>
   );
